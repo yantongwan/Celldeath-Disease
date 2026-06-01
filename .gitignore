@@ -1,0 +1,44 @@
+.DS_Store
+._*
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.Rhistory
+.RData
+.Rproj.user/
+
+.env
+.env.*
+*.log
+*.tmp
+
+Results.docx
+TABLE.xlsx
+*.docx
+Figure*.png
+Figure*.ai
+corrected_panels/
+
+# Raw and large intermediate data should be archived with a DOI
+# rather than pushed to ordinary GitHub history.
+raw/
+*.zip
+*.ai
+*.tif
+*.tiff
+
+# Figure source tables are released through the DOI-backed data archive.
+table/*
+!table/00_manifest/
+table/00_manifest/*
+!table/00_manifest/selected_death_modes_manifest.csv
+!table/00_manifest/source_trace_README.md
+
+# Very large derived/reference tables identified during release audit.
+table/**/drug_reference_universe_from_downloaded_sources.csv
+table/**/drug_reference_lookup_terms_from_downloaded_sources.csv
+table/**/gene_comention_matches_primary.csv
+table/**/shared_gene_matching_terms.csv
+table/**/pubmed_pubtator_candidates_reference_mapped.csv

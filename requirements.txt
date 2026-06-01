@@ -1,0 +1,7 @@
+biopython
+matplotlib
+networkx
+numpy
+pandas
+requests
+seaborn
