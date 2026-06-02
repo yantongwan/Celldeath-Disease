@@ -7,7 +7,7 @@ output:
 
 This file summarizes the methods used for the selected PNG figures in the `CellDeath_Figure` repository: `Figure 1.png` to `Figure 5.png` and `Figure S1.png` to `Figure S7.png`. macOS AppleDouble sidecar files named `._Figure*.png` were excluded. The methods are organized into five modules, following a Nature-style emphasis on transparent input data, prespecified filtering, metric definitions, reproducibility and interpretation boundaries.
 
-All figure-level signals are literature-level signals derived from PubMed records, PubMed/PubTator annotations, title/abstract/keyword co-mentions, or structured intermediate tables. They should not be interpreted as causal biological evidence, clinical efficacy evidence, or experimental pathway validation.
+All figure-level signals are literature-level signals derived from PubMed records, PubMed/PubTator annotations, title/abstract/keyword co-mentions, or structured intermediate tables. These signals are bibliometric and hypothesis-generating rather than causal biological evidence, clinical efficacy evidence or experimental pathway validation.
 
 ## Figure-to-method mapping
 
@@ -180,7 +180,7 @@ The full RCA matrix was clipped to `[-4, 4]`; heatmap visualization used a symme
 
 The gene layer used a human-mouse shared gene universe and title/abstract/keyword co-mention matching. Primary matches required an accepted matching rule such as unambiguous approved symbols/names or high-risk ambiguous symbols with context support. The primary match table contains the fields `pmid`, `year`, `death_mode`, `disease_term`, `disease_system`, `oncology_flag`, `shared_gene_id`, `shared_display_symbol`, `human_symbol`, `mouse_symbol`, `matched_term`, `matched_term_type`, `match_field`, `ambiguity_status`, `primary_inclusion`, `sensitivity_inclusion`, `match_rule`, `context_cue_present_yes_no` and `low_count_pair_warning_yes_no`.
 
-The matching summary for the organized figure package included 640,889 raw matches, 116,674 primary matches, 300,732 sensitivity matches and 5,492 unique primary shared genes across 16,692 unique primary PMIDs. These values describe the co-mention layer used for figure generation and should not be read as direct gene-function evidence.
+The matching summary for the organized figure package included 640,889 raw matches, 116,674 primary matches, 300,732 sensitivity matches and 5,492 unique primary shared genes across 16,692 unique primary PMIDs. These values describe the co-mention layer used for figure generation and do not represent direct gene-function evidence.
 
 Primary source files:
 
@@ -381,17 +381,13 @@ The organized figure package keeps the raw, source-data and code layers together
 
 All PMID counts are unique PubMed records unless explicitly labeled as article-stage records, pair-PMID links, context counts or sentence-candidate counts. Composite scores were used for ranking and visualization, not for formal hypothesis testing. z-score components were calculated within the relevant table. Small pseudo-counts were used only to stabilize ratios or log2 selectivity calculations when zero counts were possible.
 
-No randomization, blinding or experimental sample-size calculation was applicable because the study used public bibliographic and annotation data rather than prospectively collected biological samples. The appropriate reporting boundary is therefore bibliometric reproducibility: source records, filtering criteria, derived metrics, code, and figure-specific source data should be provided with the manuscript or as supplementary/source data files.
+No randomization, blinding or experimental sample-size calculation was applicable because the study used public bibliographic and annotation data rather than prospectively collected biological samples. The reporting boundary is bibliometric reproducibility: source records, filtering criteria, derived metrics, code and figure-specific source data.
 
-### Interpretation boundary for the manuscript
+### Interpretation boundary
 
-Recommended Nature-style wording:
-
-```text
 All analyses quantify literature-level associations among regulated cell death terms,
 disease terms, genes, tumor contexts and drug mentions. Co-mention, PubMed/PubTator
 chemical annotation and sentence-window relation candidates were used to construct
-a reproducible atlas of the published literature. These metrics should be interpreted
-as evidence-stage, bibliometric and hypothesis-generating signals, not as proof of
+a reproducible atlas of the published literature. These metrics represent
+evidence-stage, bibliometric and hypothesis-generating signals, not proof of
 causal mechanisms, therapeutic activity or clinical efficacy.
-```
