@@ -29,6 +29,19 @@ raw/
 *.tif
 *.tiff
 
+# Public Streamlit companion app. The app ships a compact Parquet snapshot for
+# deployment, while keeping large raw CSV and DuckDB snapshots out of Git.
+!rcd_atlas_explorer/
+!rcd_atlas_explorer/data/
+!rcd_atlas_explorer/data/raw/
+!rcd_atlas_explorer/data/raw/README_EXPECTED_FILES.md
+!rcd_atlas_explorer/data/raw/demo/
+!rcd_atlas_explorer/data/raw/demo/**
+!rcd_atlas_explorer/data/processed/
+!rcd_atlas_explorer/data/processed/validation_report.md
+!rcd_atlas_explorer/data/processed/rcd_atlas.parquet/
+!rcd_atlas_explorer/data/processed/rcd_atlas.parquet/**
+
 # Figure source tables are released through the DOI-backed data archive.
 table/*
 !table/00_manifest/

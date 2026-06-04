@@ -1,0 +1,5 @@
+pmid,death_mode,disease_term,disease_system,is_neoplasm,tumor_family,evidence_stage
+1001,Ferroptosis,Breast Neoplasms,Neoplasms,true,Breast,preclinical
+1002,Pyroptosis,COVID-19,Infections,false,,human observational
+1003,Ferroptosis,Breast Neoplasms,Neoplasms,true,Breast,preclinical
+1004,Necroptosis,Lung Neoplasms,Neoplasms,true,Lung,basic

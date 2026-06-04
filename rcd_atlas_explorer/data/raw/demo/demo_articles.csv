@@ -1,0 +1,5 @@
+pmid,title,journal,publication_year,publication_date,doi,abstract,publication_types,country,evidence_stage,high_stage_text_signal,publicationtype_supported_trial,is_oncology,tumor_family
+1001,Ferroptosis and ACSL4 in breast neoplasms,Nature Medicine,2021,2021-03-01,10.1000/demo1,"A PubMed-derived demonstration record mentioning ferroptosis, ACSL4 and breast neoplasms.",Journal Article,United States,preclinical,true,false,true,Breast
+1002,CASP1 pyroptosis signatures in COVID-19,Cell Death & Disease,2022,2022-06-15,10.1000/demo2,"CASP1 and pyroptosis were reported in a COVID-19 literature context.",Journal Article,China,human observational,false,false,false,
+1003,Cisplatin-associated ferroptosis candidates in breast neoplasms,Cancer Research,2020,2020-11-03,10.1000/demo3,"Cisplatin appeared with ferroptosis and breast neoplasm text-mining cues.",Journal Article,United States,preclinical,false,false,true,Breast
+1004,Negated cisplatin necroptosis sentence in lung neoplasms,Oncogene,2019,2019-08-21,10.1000/demo4,"A negated relation sentence is retained for transparency.",Journal Article,Germany,basic,false,false,true,Lung

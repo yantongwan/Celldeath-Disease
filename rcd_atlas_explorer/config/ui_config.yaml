@@ -1,0 +1,12 @@
+title: Interactive atlas of regulated cell death across human disease
+warning: "This resource reports literature-level associations. Co-occurrence, text-mined gene mentions and drug-death relation candidates are hypothesis-generating and do not establish biological causality or clinical efficacy."
+candidate_drug_warning: "Drug-death-disease rows are sentence-level literature-supported candidates and are not manually validated mechanisms."
+death_mode_colors:
+  Ferroptosis: "#d95f02"
+  Pyroptosis: "#e6ab02"
+  NETosis: "#1b9e77"
+  Necroptosis: "#7570b3"
+  Immunogenic cell death: "#e7298a"
+  Cuproptosis: "#1f78b4"
+  PANoptosis: "#009e9a"
+  Disulfidptosis: "#8c510a"

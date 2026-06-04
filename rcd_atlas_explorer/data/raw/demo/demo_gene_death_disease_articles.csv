@@ -1,0 +1,4 @@
+pmid,gene_symbol,gene_alias,death_mode,disease_term,disease_system,is_oncology,tumor_family,source_field,context_sentence,evidence_stage,artifact_flag
+1001,ACSL4,ACSL4,Ferroptosis,Breast Neoplasms,Neoplasms,true,Breast,abstract,ACSL4 appeared in a ferroptosis breast neoplasm context.,preclinical,false
+1001,ASCL4,ASCL4,Ferroptosis,Breast Neoplasms,Neoplasms,true,Breast,abstract,ASCL4 is shown as a likely ACSL4 spelling artefact.,preclinical,true
+1002,CASP1,CASP1,Pyroptosis,COVID-19,Infections,false,,title,CASP1 appeared with pyroptosis in COVID-19.,human observational,false

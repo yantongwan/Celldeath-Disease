@@ -1,0 +1,3 @@
+pmid,drug_name,normalized_drug_name,reference_class_label,approved_clinical_drug_flag,fda_approved_flag,source,relation_cue,relation_sentence,negation_flag,token_distance,relation_confidence,death_mode,disease_term,tumor_family,evidence_stage
+1003,cisplatin,cisplatin,platinum compound,true,true,demo lexicon,induces,Cisplatin was reported near ferroptosis cues in breast neoplasms,false,5,high,Ferroptosis,Breast Neoplasms,Breast,preclinical
+1004,cisplatin,cisplatin,platinum compound,true,true,demo lexicon,not associated,Cisplatin was not associated with necroptosis in this sentence,true,3,medium,Necroptosis,Lung Neoplasms,Lung,basic

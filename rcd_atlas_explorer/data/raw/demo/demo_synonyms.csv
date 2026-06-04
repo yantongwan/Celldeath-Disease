@@ -1,0 +1,5 @@
+entity_type,canonical_name,synonym
+death_mode,Immunogenic cell death,ICD
+death_mode,NETosis,NETs
+disease,Breast Neoplasms,breast cancer
+drug,cisplatin,CDDP

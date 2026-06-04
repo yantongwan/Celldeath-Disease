@@ -1,0 +1,4 @@
+death_mode,disease_term,disease_system,is_neoplasm,tumor_family,pair_count,unique_pmids,first_year,latest_year,literature_hub_score,selectivity_score
+Ferroptosis,Breast Neoplasms,Neoplasms,true,Breast,2,2,2020,2021,0.82,0.74
+Pyroptosis,COVID-19,Infections,false,,1,1,2022,2022,0.65,0.51
+Necroptosis,Lung Neoplasms,Neoplasms,true,Lung,1,1,2019,2019,0.42,0.39

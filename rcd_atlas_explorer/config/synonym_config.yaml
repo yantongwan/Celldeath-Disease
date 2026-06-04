@@ -1,0 +1,21 @@
+death_modes:
+  Ferroptosis:
+    - ferroptosis
+  Pyroptosis:
+    - pyroptosis
+  Necroptosis:
+    - necroptosis
+  NETosis:
+    - NETosis
+    - NETs
+    - neutrophil extracellular traps
+  Immunogenic cell death:
+    - ICD
+    - immunogenic cell death
+  Cuproptosis:
+    - cuproptosis
+  PANoptosis:
+    - PANoptosis
+  Disulfidptosis:
+    - disulfidptosis
+    - disulfidptosis-like

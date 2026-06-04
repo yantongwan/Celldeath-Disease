@@ -1,7 +1,11 @@
 biopython
+duckdb
 matplotlib
 networkx
 numpy
+openpyxl
 pandas
+PyYAML
 requests
 seaborn
+streamlit

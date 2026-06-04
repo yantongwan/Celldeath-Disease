@@ -23,6 +23,11 @@ code/
   02_gene_v3/                            Gene/protein co-mention and VOSviewer extension scripts
   03_oncology_therapeutic_landscape/     Oncology, drug and therapeutic landscape scripts
 
+rcd_atlas_explorer/
+  app.py                                 Streamlit companion website entry point
+  data/processed/rcd_atlas.parquet/      Compact public data snapshot for app deployment
+  README.md                              App-specific local and deployment instructions
+
 table/00_manifest/
   selected_death_modes_manifest.csv      Final eight-mode screening and pair-atlas summary
   source_trace_README.md                 Source-table and raw-data traceability notes
@@ -45,6 +50,34 @@ table/00_manifest/selected_death_modes_manifest.csv
 The manifest includes PubMed term-screen counts, pair-atlas unique PMID counts and first pair-atlas publication years for the final eight concepts.
 
 This repository tracks code, methods documentation, metric definitions and a lightweight manifest. Large raw PMID tables, PubMed/PubTator context tables, figure source-data directories and editable figure assets are excluded from Git history because of file-size and database-snapshot constraints.
+
+## Interactive Atlas Website
+
+The Streamlit companion website is included in:
+
+```text
+rcd_atlas_explorer/app.py
+```
+
+For local preview:
+
+```bash
+cd rcd_atlas_explorer
+streamlit run app.py
+```
+
+For Streamlit Community Cloud deployment, use this repository and set the main
+file path to:
+
+```text
+rcd_atlas_explorer/app.py
+```
+
+The app can run from the bundled Parquet snapshot in
+`rcd_atlas_explorer/data/processed/rcd_atlas.parquet/`; it creates a temporary
+DuckDB database at runtime when `rcd_atlas.duckdb` is not present. The full raw
+CSV corpus and local DuckDB snapshot are intentionally excluded from ordinary
+Git history.
 
 ## Methods And Metrics
 
